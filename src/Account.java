@@ -1,5 +1,5 @@
 public class Account {
-    private static int accountCounter = 0;
+    private static int accountCounter = 0; // static is a class level
     private int accountID;
     private String accountType;     //saving or checking
     private double balance;
@@ -9,7 +9,7 @@ public class Account {
     private int customerID;
 
     public Account(String accountType, double balance, String currencyType, String dateCreated, String status, int customerID) {
-        this.accountID = ++accountCounter;
+        this.accountID = ++accountCounter; // this keyword mean current obj /obj level
         this.accountType = accountType;
         this.balance = balance;
         this.currencyType = currencyType;
