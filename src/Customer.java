@@ -11,7 +11,7 @@ public class Customer {
 
     // Constructor registor 
     public Customer ( String name , String address , String phoneNumber , String email ,String password, String dateOfBirth ) {
-        customerId = ++customerCounter ;
+        this.customerId = ++customerCounter ;
         this.name = name;
         this.address = address;
         this.phoneNumber = phoneNumber;

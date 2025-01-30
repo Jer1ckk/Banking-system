@@ -1,14 +1,14 @@
 public class Loan {
     private static int loanCounter = 0;
-    private int loanID;
-    private String loanType;
-    private double loanAmount;
-    private double interestRate;
-    private String loanStartDate;
-    private String loanEndDate;
-    private String loanStatus;
+    int loanID;
+    String loanType;
+    double loanAmount;
+    double interestRate;
+    String loanStartDate;
+    String loanEndDate;
+    String loanStatus;
     private double monthlyInstallmentAmount;
-    private int customerID;
+    int customerID;
 
     public Loan(String loanType, double loanAmount, double interestRate, String loanStartDate, String loanEndDate, String loanStatus, double monthlyInstallmentAmount, int customerID) {
         this.loanID = ++loanCounter;
